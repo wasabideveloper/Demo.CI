@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "description": "Demo setup of a continious integration Typescript application with Travis ",
   "scripts": {
-    "build": 
+    "build": "webpack",
     "test": "jest"
   },
   "author": "Wasabideveloper",
   "license": "Apache License 2.0",
   "dependencies": {
-  
+    "typescript": "*",
+    "ts-loader": "*",
+    "jest": "*",
+    "webpack": "*"
   }
 }
