@@ -8,10 +8,13 @@
   },
   "author": "Wasabideveloper",
   "license": "Apache License 2.0",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "*",
     "ts-loader": "*",
     "jest": "*",
-    "webpack": "*"
+    "webpack": "*",    
+    "babel-jest": "*",
+    "babel-core": "*", 
+    "regenerator-runtime": "*"
   }
 }
